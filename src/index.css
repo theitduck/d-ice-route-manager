@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-container__map {
+  flex: 3;
+  background-color: blueviolet;
+}
+
+.main-container__form {
+  flex: 1;
+  background-color: #003153;
+  height: 100vh;
+  color: white;
+}
+
+/* Buttons */
+.button {
+  background-color: #0080FF;
+  padding: 5px;
+  color: white;
+}
+
+button {
+  all: unset;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column; /* Make it a flex container with column direction */
+  height: 100vh; /* Make it span the full height of the viewport */
+}
+
+.form-container__header {
+  display: flex;
+  padding: 10px 10px 20px 10px;
+}
+
+.form-container__header-title {
+  flex: 1;
+  font-size: 24px;
+}
+
+.form-container__header-button {
+  padding: 0 20px;
+}
+
+/* Content Container */
+.form-container__content {
+  flex-grow: 1; /* Make content take the remaining space */
+  padding: 10px;
+  overflow-y: auto; /* Optional: Add scrolling if content overflows */
+}
+
+.container__route {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.form-container__route-title {
+  flex: 1;
+}
+
+.form-container__route-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.form-container__route-action {
+  cursor: pointer;
+  color: white;
+}
+
+.form-container__button-actions {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-container__button-action {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.form-container__button-action svg {
+  vertical-align: middle; /* Align SVG vertically with text */
+}
+
+/* Footer Container */
+.form-container__footer {
+  width: 100%;
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  position: relative; /* Keep relative to its parent container */
+}
+
+.form-container__footer-content {
+  color: #000; /* Set text color */
+  font-size: 16px; /* Set font size */
+}
+

@@ -1,0 +1,35 @@
+.form-container__route {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container__route__name__label {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container__route__name {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-container__route__name__input {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-container__route__table {
+    width: 100%;
+    text-align: left;
+}
+
+.form-container__route__table__input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-container__header-button-back {
+    background-color: transparent !important;
+}
